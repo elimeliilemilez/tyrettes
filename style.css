@@ -17,6 +17,7 @@ header {
 .headertext {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
+    float: left;
 }
 .headertext h1 {
     font-weight: 900;
