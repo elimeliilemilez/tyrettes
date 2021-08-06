@@ -8,11 +8,14 @@ header {
 }
 .headerlogo {
     margin: auto;
+    padding: 10px;
     float: left;
 }
 .headertext {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
+    margin: auto;
+    padding: 10px;
 }
 .headertext h1 {
     font-weight: 900;
@@ -28,7 +31,7 @@ nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 20px;
-    max-width: 1000px;
+    max-width: 80%;
 }
 .navbuttons {
     font-family: 'Montserrat', sans-serif;
@@ -50,6 +53,7 @@ nav {
 }
 .navbuttons a:hover {
     color: #1a1a1a;
+    font-style: bold;
     text-decoration: none;
 }
 .navbuttons a:visited {
@@ -58,9 +62,9 @@ nav {
 }
 .navbuttons a:active {
     color: #292929;
-    background-color: #b5b5b5;
+    background-color: #5c9ec0;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 8px;
 
 }
 
