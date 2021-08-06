@@ -7,14 +7,14 @@ header {
     margin: 20px auto;
 }
 .headerlogo {
-    margin: auto;
+    margin: 10px 20px;
     padding: 10px;
     float: left;
 }
 .headertext {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
-    margin: auto;
+    text-align: center;
     padding: 10px;
 }
 .headertext h1 {
