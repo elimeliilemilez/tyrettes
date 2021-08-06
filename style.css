@@ -37,14 +37,32 @@ nav {
 }
 .navbuttons li {
     display: inline;
+    list-style-type: none;
 }
 .navbuttons a {
-    list-style-type: none;
-    text-decoration: none;
     display: block;
     text-align: center;
     width: 12%;
     margin: auto;
+}
+.navbuttons a:link {
+    color: #292929;
+    text-decoration: none;
+}
+.navbuttons a:hover {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.navbuttons a:visited {
+    color: #292929;
+    text-decoration: none;
+}
+.navbuttons a:active {
+    color: #292929;
+    background-color: #b5b5b5;
+    text-decoration: none;
+    border-radius: 12px;
+
 }
 
 p {
