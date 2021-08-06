@@ -9,8 +9,7 @@ header {
     height: auto;
 }
 .headerlogo {
-    margin: 10px 20px;
-    padding: 10px;
+    margin: 20px 10px;
     float: left;
     max-width: 100px;
     height: auto;
@@ -19,7 +18,8 @@ header {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
     text-align: center;
-    padding: 10px;
+    margin: auto;
+    padding: 20px;
 }
 .headertext h1 {
     font-weight: 900;
@@ -29,7 +29,6 @@ header {
     font-weight: 300;
     font-size: 18px;
     font-style: italic;
-    text-align: center;
 }
 
 /*The navigation bar*/
