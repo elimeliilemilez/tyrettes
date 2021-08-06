@@ -5,11 +5,10 @@ body {
 header {
     max-width: 1000px;
     margin: 20px auto;
-    display: inline;
-    float: left;
 }
 .headerlogo {
-    margin: 20px auto;
+    margin: auto;
+    float: left;
 }
 .headertext {
     font-family: 'Montserrat', sans-serif;
