@@ -1,27 +1,28 @@
 body {
     background-color: #dedede;
-    margin: auto;
 }
 
 header {
     max-width: 800px;
-    margin: auto;
+    margin: 20px auto;
     display: block;
+    float: left;
 }
 .headerlogo {
     margin: 20px auto;
-    float: left;
 }
 .headertext {
-    float:right;
-}
-header h1 {
     font-family: 'Montserrat', sans-serif;
+    color: #292929;
+}
+.headertext h1 {
     font-weight: 800;
     font-size: 60px;
-    
 }
-
+.headertext p {
+    font-weight: 300;
+    font-size: 25px;
+}
 
 nav {
     position: sticky;
