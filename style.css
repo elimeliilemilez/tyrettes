@@ -44,12 +44,12 @@ nav {
 .navbuttons {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
-    font-size: 20px;
+    font-size: 18px;
 }
 .navbuttons li {
     display: inline-block;
     list-style-type: none;
-    width: 8%;
+    width: 80px;
 }
 .navbuttons a {
     text-align: center;
