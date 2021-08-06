@@ -40,7 +40,6 @@ nav {
     list-style-type: none;
 }
 .navbuttons a {
-    display: block;
     text-align: center;
     width: 12%;
     margin: auto;
