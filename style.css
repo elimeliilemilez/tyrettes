@@ -45,7 +45,6 @@ nav {
 .navbuttons a {
     text-align: center;
     width: 12%;
-    margin: auto;
     padding: 5px;
 }
 .navbuttons a:link {
