@@ -18,11 +18,12 @@ header img {
     font-family: 'Montserrat', sans-serif;
     color: #3c3c3c;
     float: left;
+    max-width: 860px;
     text-align: center;
 }
 .headertext h1 {
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 40px;
     margin: auto;
     padding: 10px;
 }
@@ -50,12 +51,12 @@ nav {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
     font-size: 18px;
+    margin: auto;
 }
 .navbuttons li {
     display: inline-block;
     list-style-type: none;
     width: auto;
-    margin: auto;
 }
 .navbuttons a {
     text-align: center;
