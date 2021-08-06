@@ -2,6 +2,7 @@ body {
     background-color: #dedede;
 }
 
+/*The header, with logo and text*/
 header {
     max-width: 1000px;
     margin: auto;
@@ -27,6 +28,7 @@ header {
     font-style: italic;
 }
 
+/*The navigation bar*/
 nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
@@ -39,14 +41,16 @@ nav {
     font-size: 20px;
 }
 .navbuttons li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
+    width: 12.5%;
 }
 .navbuttons a {
     text-align: center;
-    width: 12%;
     padding: 5px;
 }
+
+/*The navigation links in the bar*/
 .navbuttons a:link {
     color: #292929;
     text-decoration: none;
@@ -66,9 +70,9 @@ nav {
     background-color: #559dc1;
     text-decoration: none;
     border-radius: 8px;
-
 }
 
+/*The content of the page itself*/
 .content {
     display: block;
 }
