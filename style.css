@@ -7,10 +7,9 @@ header {
     max-width: 1000px;
     margin: 20px auto;
     height: auto;
-    display: block;
 }
 .headerlogo {
-    margin: 20px;
+    padding: 20px;
     float: left;
     max-width: 100px;
     height: auto;
