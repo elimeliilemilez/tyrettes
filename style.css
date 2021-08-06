@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     display: block;
     float: left;
@@ -16,21 +16,27 @@ header {
     color: #292929;
 }
 .headertext h1 {
-    font-weight: 800;
+    font-weight: 900;
     font-size: 60px;
 }
 .headertext p {
-    font-weight: 300;
-    font-size: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: italic;
 }
 
 nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 20px;
+    float: left;
 }
 .navbuttons {
     list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #292929;
+    font-size: 20px;
 }
 
 .navbuttons a {
@@ -38,15 +44,9 @@ nav {
     text-align: center;
 }
 
-h1 {
-    color: #373535;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-}
 p {
     color: #373535;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
 }
