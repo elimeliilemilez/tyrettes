@@ -4,7 +4,7 @@ body {
 
 header {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: auto;
 }
 .headerlogo {
     margin: 10px 20px;
@@ -69,6 +69,9 @@ nav {
 
 }
 
+.content {
+    display: block;
+}
 p {
     color: #373535;
     font-family: 'Montserrat', sans-serif;
