@@ -7,11 +7,14 @@ header {
     max-width: 1000px;
     margin: auto;
     display: block;
+    height: auto;
 }
 .headerlogo {
     margin: 10px 20px;
     padding: 10px;
     float: left;
+    max-width: 100px;
+    height: auto;
 }
 .headertext {
     font-family: 'Montserrat', sans-serif;
