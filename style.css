@@ -46,14 +46,16 @@ nav {
     text-align: center;
     width: 12%;
     margin: auto;
+    padding: 5px;
 }
 .navbuttons a:link {
     color: #292929;
     text-decoration: none;
 }
 .navbuttons a:hover {
-    color: #1a1a1a;
-    font-style: bold;
+    color: #292929;
+    background-color: #8cc8e5;
+    border-radius: 8px;
     text-decoration: none;
 }
 .navbuttons a:visited {
@@ -62,7 +64,7 @@ nav {
 }
 .navbuttons a:active {
     color: #292929;
-    background-color: #5c9ec0;
+    background-color: #559dc1;
     text-decoration: none;
     border-radius: 8px;
 
