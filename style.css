@@ -17,18 +17,17 @@ header {
 .headertext {
     font-family: 'Montserrat', sans-serif;
     color: #292929;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
 }
 .headertext h1 {
     font-weight: 900;
     font-size: 80px;
+    margin: 20px auto;
 }
 .headertext p {
     font-weight: 300;
     font-size: 18px;
     font-style: italic;
+    margin: 10px auto;
 }
 
 /*The navigation bar*/
