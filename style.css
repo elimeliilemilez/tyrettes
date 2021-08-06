@@ -5,6 +5,7 @@ body {
 header {
     max-width: 1000px;
     margin: 20px auto;
+    display: inline;
     float: left;
 }
 .headerlogo {
@@ -28,19 +29,23 @@ nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
     top: 20px;
-    float: left;
+    max-width: 1000px;
 }
 .navbuttons {
-    list-style-type: none;
-    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #292929;
     font-size: 20px;
 }
-
+.navbuttons li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
 .navbuttons a {
     display: block;
     text-align: center;
+    width: 12%;
+    margin: auto;
 }
 
 p {
