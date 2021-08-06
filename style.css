@@ -16,8 +16,9 @@ header img {
 }
 .headertext {
     font-family: 'Montserrat', sans-serif;
-    color: #292929;
+    color: #3c3c3c;
     float: left;
+    text-align: center;
 }
 .headertext h1 {
     font-weight: 900;
@@ -41,7 +42,7 @@ nav {
     top: 20px;
     max-width: 1000px;
     margin: 20px auto;
-    height: auto;
+    height: 30px;
     background-color: #c8edff;
     border-radius: 4px;
 }
@@ -54,6 +55,7 @@ nav {
     display: inline-block;
     list-style-type: none;
     width: auto;
+    margin: auto;
 }
 .navbuttons a {
     text-align: center;
