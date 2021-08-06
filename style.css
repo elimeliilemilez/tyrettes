@@ -36,11 +36,11 @@ nav {
     font-size: 20px;
 }
 .navbuttons li {
-    list-style-type: none;
-    text-decoration: none;
     display: inline;
 }
 .navbuttons a {
+    list-style-type: none;
+    text-decoration: none;
     display: block;
     text-align: center;
     width: 12%;
