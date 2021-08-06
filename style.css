@@ -21,13 +21,15 @@ header {
 .headertext h1 {
     font-weight: 900;
     font-size: 80px;
-    margin: 20px auto;
+    margin: auto;
+    padding: 20px;
 }
 .headertext p {
     font-weight: 300;
     font-size: 18px;
     font-style: italic;
-    margin: 10px auto;
+    margin: auto;
+    padding: 20px;
 }
 
 /*The navigation bar*/
