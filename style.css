@@ -33,8 +33,9 @@ header {
 nav {
     position: sticky;
     position: -webkit-sticky; /* Safari */
+    display: block;
     top: 20px;
-    max-width: 80%;
+    max-width: 1000px;
     margin: auto;
     background-color: #c8edff;
     border-radius: 4px;
@@ -47,7 +48,7 @@ nav {
 .navbuttons li {
     display: inline-block;
     list-style-type: none;
-    width: 60px;
+    width: 12.5%;
 }
 .navbuttons a {
     text-align: center;
