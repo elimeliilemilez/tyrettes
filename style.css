@@ -20,12 +20,13 @@ header {
 }
 .headertext h1 {
     font-weight: 900;
-    font-size: 60px;
+    font-size: 80px;
 }
 .headertext p {
     font-weight: 300;
     font-size: 18px;
     font-style: italic;
+    text-align: center;
 }
 
 /*The navigation bar*/
@@ -35,6 +36,8 @@ nav {
     top: 20px;
     max-width: 80%;
     margin: auto;
+    background-color: #c8edff;
+    border-radius: 4px;
 }
 .navbuttons {
     font-family: 'Montserrat', sans-serif;
