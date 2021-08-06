@@ -1,10 +1,10 @@
 body {
     background-color: #dedede;
-    width: 60%;
+    margin: auto;
 }
 
 header {
-    
+    max-width: 800px;
 }
 .headerlogo {
     margin: 20px;
