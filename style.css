@@ -18,7 +18,7 @@ header img {
     font-family: 'Montserrat', sans-serif;
     color: #3c3c3c;
     float: left;
-    max-width: 860px;
+    margin: auto;
     text-align: center;
 }
 .headertext h1 {
@@ -52,6 +52,7 @@ nav {
     color: #292929;
     font-size: 18px;
     margin: auto;
+    vertical-align: middle;
 }
 .navbuttons li {
     display: inline-block;
