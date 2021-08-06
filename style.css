@@ -5,7 +5,7 @@ body {
 /*The header, with logo and text*/
 header {
     max-width: 1000px;
-    margin: 30px auto;
+    margin: 20px auto;
     height: auto;
 }
 .headerlogo {
@@ -39,8 +39,8 @@ nav {
     display: block;
     top: 20px;
     max-width: 1000px;
+    margin: 20px auto;
     height: auto;
-    margin: auto;
     background-color: #c8edff;
     border-radius: 4px;
 }
