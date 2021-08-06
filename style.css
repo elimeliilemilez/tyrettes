@@ -49,11 +49,11 @@ nav {
 .navbuttons li {
     display: inline-block;
     list-style-type: none;
-    width: 80px;
+    width: auto;
 }
 .navbuttons a {
     text-align: center;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 /*The navigation links in the bar*/
