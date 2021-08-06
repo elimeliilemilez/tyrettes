@@ -1,14 +1,37 @@
 body {
-    background-color: #B1FFFB;
+    background-color: #dedede;
+    width: 60%;
 }
+
+header {
+    
+}
+.headerlogo {
+    margin: 20px;
+}
+
+nav {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 20px;
+}
+.navbuttons {
+    list-style-type: none;
+}
+
+.navbuttons a {
+    display: block;
+    text-align: center;
+}
+
 h1 {
-    color: #676767;
+    color: #373535;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 600;
 }
 p {
-    color: #676767;
+    color: #373535;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 300;
