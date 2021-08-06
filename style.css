@@ -21,12 +21,12 @@ header {
 }
 .headertext h1 {
     font-weight: 900;
-    font-size: 80px;
+    font-size: 50px;
     margin: auto;
     padding: 20px;
 }
 .headertext p {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     font-style: italic;
     margin: auto;
