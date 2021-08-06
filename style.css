@@ -5,7 +5,7 @@ body {
 /*The header, with logo and text*/
 header {
     max-width: 1000px;
-    margin: auto;
+    margin: 30px auto;
     height: auto;
 }
 .headerlogo {
