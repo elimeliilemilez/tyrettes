@@ -10,36 +10,58 @@
 <body>
 
     <header>
-
-        <img class="headerlogo" src="logo200.png" alt="A logo with black outlines and greyscale fill. It vaguely holds the shape of a capital T. The details are blocky and industrial looking.">
-
-        <div class="headertext">
-            <h1>tyrettes</h1>
-            <p>Welcome to my portfolio website.</p>
-        </div>
+        <a href="index.html">
+            <img class="headerlogo" src="logo200.png" alt="A logo with black outlines and greyscale fill. It vaguely holds the shape of a capital T. The details are blocky and industrial looking.">
+            
+            <div class="headertext">
+                <h1>tyrettes</h1>
+                <p>Gaze upon my retro<br>portfolio website.</p> 
+            </div>
+        </a>
     </header>
 
     <nav>
-        <ul class="navbuttons">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="drawings/drawings.html">Drawings</a></li>
-            <li><a href="pixels/pixels.html">Pixels</a></li>
-            <li><a href="vectors/vectors.html">Vectors</a></li>
-            <li><a href="stories/stories.html">Stories</a></li>
-            <li><a href="poems/poems.html">Poems</a></li>
-            <li><a href="guides/guides.html">Guides</a></li>           
-            <li><a href="other/other.html">Other</a></li>
-        </ul>
+        <div class="dropdowns">
+            <button class="dropbutton">Visual</button>
+            <div class="dropcontent">
+                <a href="drawings/drawings.html">Drawings</a>
+                <a href="../paintings/paintings.html">Paintings</a>
+                <a href="pixels/pixels.html">Pixels</a>
+                <a href="vectors/vectors.html">Vectors</a>
+            </div>
+        </div>
+        <div class="dropdowns">
+            <button class="dropbutton">Written</button>
+            <div class="dropcontent">
+                <a href="stories/stories.html">Stories</a>
+                <a href="poems/poems.html">Poems</a>
+            </div>
+        </div>
+       <div class="dropdowns">
+            <button class="dropbutton">Other</button>
+            <div class="dropcontent">
+                <a href="guides/guides.html">Guides</a>
+                <a href="webdev/webdev.html">Webdev</a>
+            </div>
+        </div>
     </nav>
 
-    <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet hendrerit massa. Aenean volutpat neque vitae arcu porttitor, eu facilisis ante dictum. Nam eget orci eu enim feugiat gravida. Etiam quis lorem id leo vulputate dignissim. Donec cursus rutrum mauris vitae aliquam. Quisque et urna eu justo elementum hendrerit. Vivamus non laoreet tellus. <br><br> Duis diam arcu, porttitor nec semper in, ultrices a erat. Nunc et urna at turpis pretium tristique eu eu metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor urna, congue at consequat at, porta vitae mauris. Pellentesque consequat ex nec vestibulum molestie. Suspendisse rhoncus mauris sed diam volutpat, finibus laoreet elit dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus tincidunt leo in sapien sagittis pretium. Sed pellentesque magna aliquam urna vehicula condimentum. Donec imperdiet euismod laoreet. Donec vulputate, massa et pulvinar sollicitudin, dolor nunc molestie nisi, sit amet eleifend est odio in magna. Vivamus vitae iaculis lacus. Phasellus turpis ex, lacinia ac mollis congue, convallis volutpat ipsum. Nulla quis sapien eu eros venenatis dapibus. <br><br> Duis bibendum leo sapien, at sagittis massa consectetur at. Aenean eget ipsum id risus congue ornare sit amet eu metus. Duis ultrices rhoncus libero, convallis tristique felis mattis et. Nulla quis fermentum massa. Vivamus dapibus orci ut metus tempus dictum. Morbi ut orci metus. Vestibulum lobortis imperdiet iaculis. Proin massa sapien, vehicula suscipit augue a, feugiat sollicitudin magna. Proin posuere, ipsum in euismod molestie, tellus neque placerat tortor, et consequat ante lacus ac est. Curabitur fermentum urna vel congue ullamcorper. <br><br> Sed dignissim justo risus, at finibus lorem tempor a. Vestibulum fringilla, nulla in feugiat accumsan, quam ex pharetra urna, vel faucibus nisl urna a justo. Vestibulum porttitor cursus nisi a commodo. Integer mauris nulla, lobortis nec condimentum ac, blandit sit amet velit. Praesent mattis fermentum imperdiet. Donec tristique, lorem sed pretium dapibus, turpis ex eleifend nisi, sed aliquet tellus quam id felis. Quisque tempus venenatis erat, a dictum elit mattis a. <br><br> Donec quis tincidunt lacus, a tincidunt est. Nam sit amet enim tincidunt, elementum nibh vitae, tempus sem. Morbi at accumsan nulla. Quisque a suscipit nisl. Suspendisse potenti. Morbi eget lectus ultricies, interdum leo eu, eleifend metus. Nunc luctus metus non mi pellentesque, a efficitur odio malesuada. Pellentesque auctor consectetur lectus, id varius velit ornare nec. In feugiat venenatis lorem at ullamcorper. Phasellus varius, ipsum id vestibulum ornare, augue felis tempus mi, id sodales purus quam finibus dolor. Sed mollis eu eros quis venenatis. <br><br> Etiam tortor neque, fringilla suscipit malesuada eget, sagittis non enim. In dapibus dolor a nulla vehicula egestas. Sed et mollis leo, vitae luctus turpis. Maecenas nunc arcu, sagittis quis purus ac, ultricies mollis urna. Vivamus gravida varius ultricies. Etiam vestibulum tellus cursus est euismod posuere. Suspendisse egestas mattis venenatis. Mauris eu lacinia magna. Mauris vitae semper elit, a dapibus nisl. Pellentesque purus sapien, laoreet ac magna facilisis, accumsan tincidunt metus. Nunc tincidunt velit eros, at auctor nulla ullamcorper et. Praesent cursus tempus erat a scelerisque. In volutpat ipsum sit amet pharetra dignissim. Aliquam efficitur libero id purus sodales tristique. Donec consequat maximus nunc ac consectetur. Sed rutrum quam non dui mollis, eu bibendum magna molestie.</p>
+    <p class="content normaltext">Hello! Welcome to my portfolio page. I've made this to showcase my visual, written, and other works. All tidy, and all in one place.<br><br>The retro design is very much intentional. The idea behind it is that with a simple website design, I have all the more creative freedom to fool around with the individual pages for my works.<br><br>If you're here, chances are you already know me, but I'll throw a quick introduction anyway.</p>
 
-    <p>TEST</p>
-    </div>
+    <ul class="content listtext">
+        <li>21 years old</li>
+        <li>From Norway, Europe</li>
+        <li>Certified disabled gremlin</li>
+        <li>Queer and neurodivergent</li>
+        <li>Likes all things soft and squishy</li>
+        <li>Dislikes spicy food and sticky hands</li>
+        <li>Wet socks are the bane of my existence</li>
+    </ul>
+
+    <p class="content normaltext">That about sums it up, I think. If you want to reach me, click the link at the bottom of the page to get to my contact form. Use the menu at the top to go to overview pages of different types of works, and click the logo or text in the header to go back to this page. Enjoy!</p>
 
     <footer>
-
+        <a href="contact.html">All content is &copy;tyrettes. Click here to contact me.</a>
     </footer>
 
 </body>
