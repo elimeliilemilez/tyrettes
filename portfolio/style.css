@@ -1,0 +1,204 @@
+body {
+    background-color: #dbd8d8;
+}
+
+/*The header, with logo and text*/
+header {
+    width: 340px;
+    margin: 0 auto;
+    height: 140px; 
+}
+header img {
+    padding: 20px 5px;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.headertext {
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    padding: 5px;
+}
+.headertext h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.headertext p {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+/*Styling links in header and navbar*/
+.headertext a:link, .dropdowns a:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+.headertext a:visited, .dropdowns a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+.headertext h1:hover {
+    color: #72a7b9;
+}
+.dropbutton:hover {
+    background-color: #72a7b9;
+}
+.dropcontent a:hover {
+    background-color: #72a7b9;
+    border-radius: inherit;
+}
+.headertext a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*The navigation bar itself*/
+nav {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    display: block;
+    top: 20px;
+    width: 340px;
+    margin: 10px auto 30px auto;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #c8edff;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    font-size: 18px;
+}
+
+/*The container of the dropdown menus*/
+.dropdowns {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 100px;
+    border-radius: 4px;
+}
+/*The buttons for the dropdown menus*/
+.dropbutton {
+    width: inherit;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #92c3db;
+    border: 3px outset #88b2c7;
+    border-radius: inherit;
+}
+/*The box and links inside the dropdown menus*/
+.dropcontent {
+    display: none;
+    position: absolute;
+    width: inherit;
+    background-color: #b7b7b7;    
+    z-index: 1;
+    border-radius: inherit;
+}
+.dropcontent a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+/*Making the menu appear on hover*/
+.dropdowns:hover .dropcontent {
+    display: block;
+}
+
+/*Foother styles*/
+footer {
+    max-width: 340px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*Sitewide link styles*/
+a:link {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: underline #3c3c3c;
+}
+a:visited {
+    font-family: inherit;
+    font-size: inherit;
+    color: #588a9a;
+    text-decoration: underline #588a9a;
+}
+a:hover {
+    font-family: inherit;
+    font-size: inherit;
+    color: #72a7b9;
+    text-decoration: underline #72a7b9;
+}
+a:active {
+    font-family: inherit;
+    font-size: inherit;
+    color: #588a9a;
+    text-decoration: underline #588a9a;
+}
+
+/*The content of the page itself - remember to add the right class to elements!*/
+.content {
+    margin: auto;
+    padding: 20px;
+    color: #3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 600px;
+}
+.normaltext {
+    line-height: 1.25;
+}
+.poemtext {
+    text-align: center;
+    line-height: 1.75;
+}
+.listtext {
+    max-width: 400px;
+    text-indent: 15px;
+    list-style-type: circle;
+}
+.artsyimage {
+    display: block;
+    margin: 0 auto;
+}
+.datestamp {
+    margin: -15px auto 40px auto;
+    font-size: 13px;
+    text-align: right;
+}
+
+/*Toggle the content under a title on click*/
+button.toggle {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    display: inherit;
+}
+
+.toggle.open {
+    height: auto;
+}
+
+.togglecontent {
+    display: none;
+}
+
+.toggle.open .togglecontent {
+    display: block;
+}
