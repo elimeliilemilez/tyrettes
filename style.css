@@ -1,0 +1,136 @@
+/*Sitewide stuff! ------------------------------*/
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: radial-gradient(ellipse closest-corner at 50% 50%,      
+        rgb(210, 238, 255) 42%, 
+        rgb(209, 199, 255), 
+        rgb(242, 199, 255)) no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header styling! ----------------------------*/
+header {
+    font-size: 1.8em;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+/*Styles for main content inside the. Uh. The box. Thing.*/
+.mcont {
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.001));
+    border-radius: 48px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/*Styles for the buttons below main content. They're cUTE 0w0*/
+div.butnline {
+    display: flex;
+    justify-content: center;
+}
+
+.butn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+
+    margin: 10px;
+    padding: 5px;
+
+    background-color: rgb(242, 199, 255);
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(209, 199, 255);
+    border-style: outset;
+
+    font-size: 0.9em;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+}
+
+a.butn:link {
+    text-decoration: none;
+}
+
+a.butn:visited {
+    text-decoration: none;
+}
+
+a.butn:hover {
+    background-color: rgb(210, 238, 255);
+    transition-duration: 0.5s;
+    border-style: solid;
+}
+
+a.butn:active {
+    background-color: rgb(242, 199, 255);
+    transition-duration: 0.5s;
+    border-style: inset;
+    
+}
+
+/*Center the element. -------------------------------------*/
+.centerdick {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 800px;
+}
+
+/*Give the element my favourite font<3 ----------------------*/
+.monts {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+/*Give the element a fancier font :0 -----------------------*/
+.comf {
+    font-family: 'Comfortaa', cursive;
+}
+
+/*Fuck off default link styling I despise your very sould >:(*/
+a.fancy:link {
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+    padding: 2px 0px;
+    text-decoration: none;
+}
+
+a.fancy:visited {
+    color: rgb(68, 68, 68);
+    padding: 2px 0px;
+    text-decoration: none;
+}
+
+a.fancy:hover {
+    color: rgb(68, 68, 68);
+    background-color: rgb(210, 238, 255);
+    padding: 2px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a.fancy:active {
+    color: rgb(28, 28, 28);
+    background-color: rgb(242, 199, 255);
+    padding: 2px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
