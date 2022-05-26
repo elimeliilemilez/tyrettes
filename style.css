@@ -27,7 +27,7 @@ header {
 
 /*Styles for main content inside the. Uh. The box. Thing.*/
 .mcont {
-    height: 450px;
+    height: auto;
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.001));
     border-radius: 48px;
@@ -50,7 +50,7 @@ div.butnline {
 
     width: 100%;
 
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 
     background-color: rgb(242, 199, 255);
@@ -88,7 +88,7 @@ a.butn:active {
 /*Center the element. -------------------------------------*/
 .centerdick {
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
     max-width: 800px;
 }
 
