@@ -103,6 +103,13 @@ a.butn:active {
     font-family: 'Comfortaa', cursive;
 }
 
+/*Make the text background hecking pink!!!!*/
+.about {
+    background-color: rgba(242, 199, 255, 0.7);
+    padding: 2px 0px;
+    border-radius: 10px;
+}
+
 /*Fuck off default link styling I despise your very sould >:(*/
 a.fancy:link {
     color: rgb(68, 68, 68);
