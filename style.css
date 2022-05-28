@@ -36,22 +36,23 @@ header {
     font-size: 1.125rem;
 }
 
-/*Styles for the buttons below main content. They're cUTE 0w0*/
+/*BUTTONFUCK. For phones, below 550px--------------------*/
 div.butnline {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+   	justify-content: center;
 }
-
+    
 .butn {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-sizing: border-box;
 
-    width: 100%;
-
+    width: 90%;
     margin: 5px;
-    padding: 5px;
+    padding: 12px;
 
     background-color: rgb(242, 199, 255);
     border-width: 3px;
@@ -82,7 +83,6 @@ a.butn:active {
     background-color: rgb(242, 199, 255);
     transition-duration: 0.5s;
     border-style: inset;
-    
 }
 
 /*Center the element. -------------------------------------*/
@@ -134,3 +134,17 @@ a.fancy:active {
     text-decoration: none;
     transition-duration: 0.5s;
 }
+
+/*Styles for buttons when the monitor is a tablet, above 550px*/
+@media (min-width: 550px) {
+    .butn {
+         width: calc(50% - 10px);
+     }
+   }
+   
+/*Styles for buttons when the monitor is a PC, above 850px*/
+@media (min-width: 850px) {
+    .butn {
+        width: calc((100%/6) - 10px);
+    }
+  }
